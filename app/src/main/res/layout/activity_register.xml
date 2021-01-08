@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_marginBottom="3dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="6dp"
+                android:text="Nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/edtNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:padding="15dp"
+                android:background="@drawable/shapeemail"
+                android:drawablePadding="10dp"
+                android:hint="Nama"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textColorHighlight="@color/white"/>
+
+            <TextView
+                android:layout_marginBottom="3dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="6dp"
+                android:text="Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/edEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:padding="15dp"
+                android:background="@drawable/shapeemail"
+                android:drawablePadding="10dp"
+                android:hint="Email"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textColorHighlight="@color/white"/>
+
+            <TextView
+                android:layout_marginBottom="3dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="6dp"
+                android:text="Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/edtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:padding="15dp"
+                android:background="@drawable/shapeemail"
+                android:drawablePadding="10dp"
+                android:hint="Password"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textColorHighlight="@color/white" />
+
+
+            <TextView
+                android:layout_marginBottom="3dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="6dp"
+                android:text="Re Type Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/edtRePassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:padding="15dp"
+                android:background="@drawable/shapeemail"
+                android:drawablePadding="10dp"
+                android:hint="Re Type Password"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textColorHighlight="@color/white"/>
+
+
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:shadowColor="@android:color/transparent"
+                android:padding="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/shapelogin"/>
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Log In"
+                android:shadowColor="@android:color/transparent"
+                android:padding="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/shapesignup"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+</LinearLayout>
